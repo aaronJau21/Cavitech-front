@@ -6,6 +6,8 @@ export default {
       colors: {
         primary: "#09BE8B",
         secundary: "#103E3D",
+        tercero: "#1E2738",
+        fondo: "#1E2738",
       },
     },
   },
