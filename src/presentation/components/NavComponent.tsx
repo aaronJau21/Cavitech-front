@@ -3,11 +3,11 @@ import { routeList } from "../../Router";
 
 export const NavComponent = () => {
   return (
-    <nav className="flex container mx-auto w-11/12 justify-between ">
+    <nav className=" lg:flex lg:container lg:mx-auto lg:w-11/12 lg:justify-between ">
       <NavLink to="/" className="text-white">
         Cavitech
       </NavLink>
-      <div className="flex gap-9">
+      <div className="hidden lg:flex lg:gap-9">
         {routeList.map((routeL) => (
           <NavLink
             key={routeL.path}

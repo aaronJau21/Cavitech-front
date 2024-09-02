@@ -3,10 +3,10 @@ import Web from "/img/web.jpg";
 export const Home = () => {
   return (
     <>
-      <div className="flex mt-16  py-5">
-        <div className="flex-1 flex justify-end">
-          <div className="w-[37rem]">
-            <h1 className="text-5xl ">
+      <div className="lg:flex mt-16 py-5">
+        <div className="lg:flex-1 lg:flex lg:justify-end">
+          <div className="w-[31rem] lg:w-[37rem]">
+            <h1 className="text-5xl text-center lg:text-start ">
               Revolucion de sistemas <span className="font-bold">WEBS</span> y{" "}
               <span className="font-bold">MOVILES</span> para su empresa
             </h1>
@@ -17,12 +17,14 @@ export const Home = () => {
             </p>
           </div>
         </div>
-        <div className="flex-1 ">
-          <img src={Web} alt="Muestra de la pagina web" className="w-[27rem] rounded-3xl" />
+        <div className="lg:flex-1 ">
+          <img
+            src={Web}
+            alt="Muestra de la pagina web"
+            className="lg:w-[27rem] rounded-3xl"
+          />
         </div>
       </div>
-   
-
     </>
   );
 };
