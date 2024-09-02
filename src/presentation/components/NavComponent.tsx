@@ -46,7 +46,7 @@ export const NavComponent = () => {
         <div className="relative">
           {(showHambu || animateOut) && (
             <div
-              className={`absolute right-0 bg-slate-900 rounded-lg flex flex-col w-96 p-5 ${
+              className={`absolute right-0 bg-slate-900 rounded-lg flex flex-col w-72 sm:w-96 p-5 ${
                 showHambu
                   ? "animate__animated animate__backInDown"
                   : "animate__animated animate__backOutUp"
