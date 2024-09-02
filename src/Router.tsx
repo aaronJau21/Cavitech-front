@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { About, Blog, Contact, Home, Layout, Services } from "./presentation";
 
-interface RouteList {
+export interface RouteList {
   title: string;
   path: string;
   element: () => JSX.Element;
