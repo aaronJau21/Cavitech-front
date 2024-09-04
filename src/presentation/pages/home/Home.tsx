@@ -6,6 +6,9 @@ export const Home = () => {
     <>
       <Initial />
       <Card />
+     
+
+
     </>
   );
 };

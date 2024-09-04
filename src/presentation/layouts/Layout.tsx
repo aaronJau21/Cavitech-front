@@ -6,7 +6,7 @@ export const Layout = () => {
   return (
     <div className="mt-5 ">
       <NavComponent />
-      <div className="px-5">
+      <div className="px-5 h-screen overflow-y-scroll">
         <Outlet />
       </div>
     </div>
