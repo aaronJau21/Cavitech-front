@@ -2,6 +2,7 @@ interface Card {
   title: string;
   svg: JSX.Element;
   lorem: string;
+  className?:string;
 }
 
 export const cards: Card[] = [
@@ -27,6 +28,7 @@ export const cards: Card[] = [
       </svg>
     ),
     title: "Tecnologias mas recientes",
+    className: "justify-end"
   },
   {
     lorem: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
@@ -50,6 +52,7 @@ export const cards: Card[] = [
       </svg>
     ),
     title: "Ha tiempo real",
+    className:"justify-center"
   },
   {
     lorem: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
